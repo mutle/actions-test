@@ -23,7 +23,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - uses: actions/checkout@v2
-      - name: Clone Terragoat - vulnerable terraform
+      - name: Clone repo with allow list
         uses: actions/checkout@master
         with:
           repository: mutle-testing-2/test-repo
